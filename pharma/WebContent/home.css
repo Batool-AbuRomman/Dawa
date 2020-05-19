@@ -1,0 +1,265 @@
+body{
+    background: #fff;
+    font-family: arial;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav {  
+    width: 100%;
+    background-color: #005366;
+    height: 60px;
+    	box-shadow: 0 10px 15px rgba(0,0,0,.1);
+
+}
+
+.logo{
+	padding: 5px 0 0 80px;
+	width: 120px;
+	height: 60px;
+}
+nav ul {
+  float: right;
+	margin-right: 30px;
+}
+nav ul  li{
+	background: #005366;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #243342;
+    cursor:pointer;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	line-height: 20px !important;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+	line-height: 20px !important;
+    border-bottom: 1px solid grey;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 150px;
+}
+ .navpart nav ul,footer ul {
+  float: right;
+	margin-right: 30px;
+}
+ .navpart nav ul  li, footer ul li{
+	background: #005366;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+.navpart nav ul li a,footer ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #243342;
+}
+
+.pic{
+    background: url("Photo/3429592.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350px;
+    width: 100%;
+    
+}
+.pic p{
+    margin-top: 0;
+    padding: 250px 300px ;
+    color: #003366;
+     font-size: 50px;
+    font-family:serif;
+    font-weight: bold;
+    text-align: center;
+    
+}
+li a:hover {
+    /*border-bottom: 1px solid #003366;*/
+    color: red;
+    cursor:pointer;
+ 
+}
+#def {
+    width: 100%;
+    padding-top: 20px;
+    background-color:#A9A9A9;
+    color: #fff;
+    
+}
+#def h2{
+    padding-left: 200px;
+    color: aliceblue;
+}
+#def p{
+    padding-left: 200px;
+    display: inline;
+}
+.hometitle{
+    float: left;
+    margin: 0;
+    padding-top: -5px;
+    padding: 0 80px;
+    color: #fff;
+    font-size: 60px;
+    font-family:serif;
+    font-weight: bold;
+}
+.category {
+    background-color: cadetblue;
+   height: 200px;
+    padding-top: 50px;
+    float: left;
+    width: 100%;
+}
+.category ul {
+   display: block;
+    padding-left: 100px;
+    float:left;
+}
+.category ul li{
+    padding-left: 100px;
+    float: left;
+    display: inline-block;
+    padding-right: 100px;
+    color: aliceblue;
+}
+.category ul li .icon{
+    color :aliceblue;
+    padding-bottom: 20px;
+    font-size:48px;
+    text-align: center;
+}
+.category ul li .name{
+    color :aliceblue;
+    padding-bottom: 5px;
+    font-size:24px;
+    text-align: center;
+}
+input[type=submit]
+{
+    margin-left: 50px;
+    border: none;
+    width: 90px;
+    background:#005366 ;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+.about {
+    
+    background-color: #E7E7E7;
+    height: 1100px;
+    width: 100%;
+}
+.about h1{
+    border-top:1px solid #fff;
+    font-size: 40px;
+    color: #005366;
+    font-weight: bold;
+    text-align: center;
+}
+.about .point1 ,.about .point2 {
+    width:100%;
+    height: 350px;
+    margin-bottom: 50px;
+}
+.about .point1 p {
+    margin-top: 150px;
+    color: #005366;
+    text-align: center;
+    padding-left: 150px;
+    float: left;
+    width: 600px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+}
+.about .point1 img{
+    margin-top: 50px;
+    float: right;
+    width:350px;
+    height: 350px;
+    border-radius: 250px;
+    margin-right: 200px;
+    
+}
+.about .point2 p {
+     margin-top: 150px;
+    color: #005366;
+    text-align: center;
+    padding-right: 150px;
+    float: right;
+    width: 600px;
+    font-weight: bold;
+    font-size: 30px;
+    display: inline;
+}
+.about .point2 img{
+   margin-top: 30px;
+    float: left;
+    width:350px;
+    height: 350px;
+    border-radius: 250px;
+    margin-left: 150px;
+}
+.contact{
+   margin-left: 350px;
+}
+.contact form {
+    margin-left: 350px;
+}
+footer {
+    background: #005366;
+    height: 100px;
+}
+footer img{
+    margin-left: 150px;
+    display: inline;
+    height: 50px;
+    width: 50px;
+}

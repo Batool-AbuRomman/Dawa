@@ -1,0 +1,191 @@
+body{
+    background: #fff;
+    font-family: arial;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav  {  
+    width: 100%;
+    background-color: #005366;
+    height: 70px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+
+}
+
+.logo{
+	padding: 5px 0 0 80px;
+	width: 120px;
+	height: 60px;
+}
+ .navpart nav ul,footer ul {
+  float: right;
+	margin-right: 30px;
+}
+ .navpart nav ul  li, footer ul li{
+	background: #005366;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+.navpart nav ul li a,footer ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #243342;
+}
+
+.signuppic , .signinpic{
+    margin-top: 15px;
+    height: 550px;
+    width: 700px;
+}
+.signup ,.signin,.contact ,.forget {
+    background-color: #E7E7E7;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 600px;
+    align-content: space-between;
+    display: inline-block;
+}
+
+.contact ,.forget{
+    margin-left: 400px;
+    width: 450px;
+}
+.signin{
+    margin-top: 15px;
+    width: 450px;
+}
+.signin img ,.contact img{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+}
+.signup form, .signin form ,.contact form,.forget form{
+    width: 600px;
+    align-content:space-between;
+    margin-right: 0px;
+   
+}
+
+.signin p ,.contact p, .forget p{
+    font-family: sans-serif ;
+    font-size :15px;
+    color: darkslategray;
+    font-weight:bold;
+    margin-left: 100px;
+}
+.signin a{
+    font-size: 15px;
+    font-family: tahoma,Geneva,sans-serif; 
+    margin-bottom: 20px;
+     
+    
+}
+.contact form h1 ,.forget form h1  {
+    text-align: left;
+    margin-left: -150px;
+    padding-right: 0px;
+}
+.signin{
+    height: 600px;
+}
+.signup form h1 ,.signin form h1,.contact form h1{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #005366;
+}
+.signin #forget {
+    margin-left: 100px;
+}
+.signin input[type=text],.signin input[type=password], .contact input[type=text], .contact input[type=email],.contact input[type=number],.forget input[type=email]{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    height: 50px;
+    border: 3px solid #fff;
+    display: block;
+}
+.contact textarea{
+    margin-top: 30px;
+     margin-left: 100px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 150px;
+    border: 3px solid #fff;
+    display: block;
+}
+.signup form h3{
+    padding-top: 10px;
+    height: 40px;
+    font-size: 24px;
+    background-color: #D4D4D4;
+    color: #005366;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.signup span{
+    color: #999;
+    font-size: 16px;
+    width: 150px;
+    text-align: end;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: 400;
+    background-color: rgba(255,255,255,0);
+    @include transition(color .3s, top .3s, background-color .8s);
+   }
+input[type=text],input[type=password],input[type=email],input[type=number],input[type=date]{
+    width: 240;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: 'play' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+        padding: 4px 10px;
+    transition: border 0.5s;
+    outline: none;
+    color:#000;
+    
+}
+input[type=submit]
+{
+    border: none;
+    width: 190px;
+    background:#005366 ;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 50px;
+    line-height: 25px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+footer {
+    background: #005366;
+    height: 100px;
+}

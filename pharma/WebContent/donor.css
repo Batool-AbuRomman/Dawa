@@ -1,0 +1,122 @@
+body{
+    background: #fff;
+    font-family: arial;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav  {  
+    width: 100%;
+    background-color: #005366;
+    height: 70px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+
+}
+
+.logo{
+	padding: 5px 0 0 80px;
+	width: 120px;
+	height: 60px;
+}
+ .navpart nav ul,footer ul {
+  float: right;
+	margin-right: 30px;
+}
+ .navpart nav ul  li, footer ul li{
+	background: #005366;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+.navpart nav ul li a,footer ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #243342;
+}
+
+
+.signup form{
+    width: 600px;
+    align-content:space-between;
+    margin-left: 300px;
+   
+}
+
+.signup form p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.signup form h1 {
+    padding-top: 40px;
+    text-align: center;
+    
+    color:#005366;
+}
+
+
+
+.signup form h3{
+    padding-top: 10px;
+    height: 40px;
+    font-size: 24px;
+    background-color: #D4D4D4;
+    color: #005366;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+input[type=text],input[type=password],input[type=email],input[type=number],input[type=date]{
+    width: 240px;
+    height: 40px;
+    text-align: center;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+    font-family: 'play' sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+        padding: 4px 10px;
+    transition: border 0.5s;
+    outline: none;
+    color:#000;
+    
+}
+input[type=submit]
+{
+    border: none;
+    width: 190px;
+    background:red ;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 50px;
+    line-height: 25px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+
+footer {
+    background: #005366;
+    height: 100px;
+}

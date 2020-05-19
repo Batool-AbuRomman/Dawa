@@ -1,0 +1,180 @@
+body{
+    background: #fff;
+    font-family: arial;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+nav {  
+    width: 100%;
+    background-color: #005366;
+    height: 60px;
+    	box-shadow: 0 10px 15px rgba(0,0,0,.1);
+
+}
+
+.logo{
+	padding: 5px 0 0 80px;
+	width: 120px;
+	height: 60px;
+}
+nav ul {
+  float: right;
+	margin-right: 30px;
+}
+nav ul  li{
+	background: #005366;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+	transition: .5s;
+}
+nav ul li a:hover{
+	background: #243342;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	line-height: 20px !important;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+	line-height: 20px !important;
+    border-bottom: 1px solid grey;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 150px;
+}
+
+.sidebar .picperson {
+    padding: 10px ;
+    display: block;
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    margin-left: 50px;
+}
+
+.sidebar{
+    width: 200px;
+    hight:1200px;
+    background: #005366;
+   float: left;
+    overflow: hidden;
+}
+
+
+.sidebar ul a,.sidebar ul button {
+    display: block;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    background-color: #005366;
+    padding-left: 40px;
+    border: none;
+    /*box-sizing: border-box;
+    border: 1px solid rbg(255,255,255,0.1);*/
+    border-bottom: 0.5px solid  gray;*/
+    transition: .3s;
+    
+}
+.sidebar ul p{
+    padding-top: 0;
+    display: block;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #808080;
+
+    padding-left: 60px;
+}
+.sidebar ul li:hover a{
+        padding-left: 50px;
+
+}
+#info ,#pharmainfo ,#medicneinfo,#request,#allrequest,#patients,#addmed{
+    padding-left: 100px;
+  width: 1000;
+  overflow: hidden;
+ /* display:none;*/
+}
+#info table, #pharmainfo table ,#medicneinfo table,#allrequest table,#patients table{
+      border-collapse: collapse;
+    width: 1100px;
+}
+#info tr ,#pharmainfo tr ,#medicneinfo tr ,#allrequest tr,#patients tr{
+    width: 1200px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+#info  th, #info td,#pharmainfo th ,#pharmainfo td,#medicneinfo td,#medicneinfo th,#allrequest td,#allrequest th,#patients th,#patients td {
+    text-align: justify;
+    float: left;
+   width:  150px;
+    padding:20px 10px 10px 10px;
+    /*border-bottom: 1px solid #BBBBBB;*/
+}
+{
+    
+}
+#info th {
+    color :gray;
+}
+#info div ,#pharmainfo div ,#medicneinfo div,#request div,#allrequest div,#patients div,#addmed div{
+    padding-top: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    width:1100px;
+    border-bottom: 1px solid gray;
+}
+#request p,#addmed p{
+    margin-top: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+}
+
+#request input[type=text],#addmed input[type=text],#request input[type=date]{
+   width: 300px;
+    display: block;
+    height: 35px;
+} 
+#request input[type=submit],#addmed input[type=submit]{
+    margin-left: 300px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: aliceblue;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    background-color: #005366;
+}
